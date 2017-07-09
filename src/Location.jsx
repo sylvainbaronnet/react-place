@@ -7,7 +7,7 @@ import Promise from 'promise-polyfill';
 import google from './vendor/google';
 
 const NO_MATCHING = 'Unrecognised {{value}}, please check and re-enter.';
-const DEFAULT_COUNTRY = 'US';
+const DEFAULT_COUNTRY = null;
 
 var compose = function () {
   var fns = arguments;
